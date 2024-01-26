@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img id="logo" src="imagenes/logo.png">
+        </div>
+    </header>
+    <main>
+        <form>
+            <div class="ingresar-texto">
+                <textarea cols="70" rows="20" id="mensaje" class="input-mensaje" required
+                    placeholder="Ingresar texto para encriptar/desencriptar"></textarea>
+            </div>
+            <ul class="aviso">
+                <li><img src="imagenes/exclamacion.png"></li>
+                <li>Sólo letras minúsculas y sin acentos</li>
+            </ul>
+            <div>
+                <input type="button" value="Encriptar" class="encriptar" onclick="encriptarDesencriptar('Encriptar')">
+                <input type="button" value="Desencriptar" class="desencriptar" onclick="encriptarDesencriptar('Desencriptar')">
+            </div>
+        </form>
+        <div class="cuadro-respuesta">
+            <div class="cuadro">
+                <img src="imagenes/Muñeco.png" class="muñeco">
+                <p class="sin-mensaje">Ningún mensaje fue encontrado</p>
+                <p class="aviso-ingresar-texto">Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+            <div class="cuadro1">
+            <textarea readonly rows="30" id="respuestamensaje" class="respuesta-mensaje" placeholder="Ingresar texto para encriptar/desencriptar"></textarea>
+            <input type="button" value="Copiar" class="copiar" onclick="copiartexto()">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">&copy Copyright Fabián Adasme - 2024</p>
+    </footer> 
+    
+    <script src="encriptador.js" defer></script>
+</body>
+</html>

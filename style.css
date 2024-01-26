@@ -1,0 +1,176 @@
+body{
+    background-color: #E9ECF8;
+}
+
+.logo {
+    width: 120px;
+    height: 48px;
+    margin: 40px 40px;
+    position: relative;
+    display: inline-block;
+}
+
+.input-mensaje{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+#mensaje{
+    resize: none;
+    background: #F3F5FC;
+    border-radius: 20px;
+    color: #0A3871;
+}
+
+.respuesta-mensaje{
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 80%;
+}
+
+#respuestamensaje{
+    resize: none;
+    background: #F3F5FC;
+    border-radius: 20px;
+    color: #0A3871;
+}
+
+.cuadro-respuesta{
+    width: 400px;
+    height: 92.187%;
+    position: absolute;
+    top: 40px;
+    left: 69.44%;
+}
+
+.cuadro{
+    text-align: center;
+    width: 100%;
+    vertical-align: top;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(236, 234, 234);
+    border-radius: 42px;
+    background-color: white;
+}
+
+.cuadro1{
+    text-align: center;
+    width: 100%;
+    vertical-align: top;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(236, 234, 234);
+    border-radius: 42px;
+    background-color: white;
+}
+
+.muñeco{
+    width: 70%;
+    height: 70%;
+    margin-top: 30%;
+}
+
+.sin-mensaje{
+    display: inline-block;
+    font-size: 24px;
+    color: #343A40;
+    font: bold;
+    margin-top: 32px;
+}
+
+.aviso-ingresar-texto{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30%;
+    color: #495057;
+}
+
+.aviso{
+    margin: 20px 0 20px 0;
+    text-align: left;
+}
+
+.aviso li {
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+}
+
+.copyright{
+    color: #000000;
+    font-size: 13px;
+    margin: 20px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+.alerta-mensaje{
+    display: inline-block;
+}
+
+.encriptar{
+    width: 20%;
+    padding: 15px 0;
+    font-size: 16px;
+    color: white;
+    background-color: #0A3871;
+    border: none;
+    border-radius: 24px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.encriptar:hover{
+    background: #052051;
+}
+
+.desencriptar{
+    width: 20%;
+    margin-left: 25px;
+    padding: 15px 0;
+    font-size: 16px;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border-style: solid;
+    border-radius: 24px;
+    border-color: #0A3871;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.desencriptar:hover{
+    background: #609ED4;
+    border-color: #609ED4;
+}
+
+.copiar{
+    width: 100%;
+    padding: 15px 0;
+    font-size: 16px;
+    color: #052051;
+    border: 1px solid #052051;
+    border-radius: 24px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.copiar:hover{
+    background: #052051;
+    color: white;
+}
